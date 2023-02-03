@@ -17,10 +17,10 @@ DOCFILES=bufmgr diskmgr global chainexception heap btree iterator index
 
 ##############  update the above for each assignment in making
 
-ASSIGN="/mnt/g/Other\ computers/My\ Laptop/ASU/Classes/Secondsem/CSE\ 510\ DBMS/Phase1/minjava/javaminibase/src"
-LIBDIR=$ASSIGN/lib
-KEY=$(ASSIGN)/key
-SRC=$(ASSIGN)/src
+ASSIGN="/mnt/g/Other computers/My Laptop/ASU/Classes/Secondsem/CSE 510 DBMS/Phase1/minjava/javaminibase/src"
+LIBDIR="$ASSIGN/lib"
+KEY="$ASSIGN/key"
+SRC="$ASSIGN/src"
 
 IMAGELINK=$(PACKAGEINDEX)/images
 PACKAGEINDEX=$(ASSIGN)/javadoc
